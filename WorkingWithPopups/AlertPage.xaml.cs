@@ -4,11 +4,11 @@ using Xamarin.Forms;
 
 namespace WorkingWithPopups
 {
-	public partial class AlertPage : ContentPage
+	public partial class AlertPage 
 	{
-		public AlertPage ()
+		public AlertPage()
 		{
-			InitializeComponent ();
+			InitializeComponent();
 		}
 
 		async void OnAlertSimpleClicked (object sender, EventArgs e)

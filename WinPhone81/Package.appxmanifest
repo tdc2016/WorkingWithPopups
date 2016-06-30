@@ -1,41 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
-
-  <Identity Name="c10654f2-8920-46fc-8bdf-238846a05548"
-            Publisher="CN=davidbritch"
-            Version="1.0.0.0" />
-
-  <mp:PhoneIdentity PhoneProductId="c10654f2-8920-46fc-8bdf-238846a05548" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
-
+  <Identity Name="2985DortaWay.TDC2016PalestraDocs" Publisher="CN=61273C96-6824-4753-82B1-405E411D4406" Version="1.1.0.0" />
+  <mp:PhoneIdentity PhoneProductId="79dffeac-d9b5-4502-bd28-54064833f3e9" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>WorkingWithPopups.WinPhone81</DisplayName>
-    <PublisherDisplayName>davidbritch</PublisherDisplayName>
+    <DisplayName>TDC2016PalestraDocs</DisplayName>
+    <PublisherDisplayName>DortaWay</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
-
   <Prerequisites>
     <OSMinVersion>6.3.1</OSMinVersion>
     <OSMaxVersionTested>6.3.1</OSMaxVersionTested>
   </Prerequisites>
-  
   <Resources>
-    <Resource Language="x-generate"/>
+    <Resource Language="x-generate" />
   </Resources>
-
   <Applications>
-    <Application Id="App"
-        Executable="$targetnametoken$.exe"
-        EntryPoint="WorkingWithPopups.WinPhone81.App">
-        <m3:VisualElements
-            DisplayName="WorkingWithPopups.WinPhone81"
-            Square150x150Logo="Assets\Logo.png"
-            Square44x44Logo="Assets\SmallLogo.png"
-            Description="WorkingWithPopups.WinPhone81"
-            ForegroundText="light"
-            BackgroundColor="transparent">
-            <m3:DefaultTile Wide310x150Logo="Assets\WideLogo.png" Square71x71Logo="Assets\Square71x71Logo.png"/>
-            <m3:SplashScreen Image="Assets\SplashScreen.png"/>
-        </m3:VisualElements>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="WorkingWithPopups.WinPhone81.App">
+      <m3:VisualElements DisplayName="TDC2016PalestraDocs" Square150x150Logo="Assets\Logo.png" Square44x44Logo="Assets\SmallLogo.png" Description="WorkingWithPopups.WinPhone81" ForegroundText="light" BackgroundColor="transparent">
+        <m3:DefaultTile Wide310x150Logo="Assets\WideLogo.png" Square71x71Logo="Assets\Square71x71Logo.png">
+        </m3:DefaultTile>
+        <m3:SplashScreen Image="Assets\SplashScreen.png" />
+      </m3:VisualElements>
     </Application>
   </Applications>
   <Capabilities>
